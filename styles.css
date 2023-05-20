@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+/* navbar section */
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.flex1 .left{
+    margin-left: 30px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.flex1 .left a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.flex1 .right{
+    margin-right: 30px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.flex1 .right a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+/* Book Section */
+
+.section1{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.section1 div{
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.heading1{
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.inside_table{
+    margin-top: 15px;
+}
+
+
+/* Register Section */
+
+.section2{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.section2 > div{
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.heading2{
+    margin-bottom: 10px;
+}
+
+input{
+    margin-top: 3px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 100%;
+}
+
+form{
+    margin-top: 20px;
+}
+
+
+
+/* hover effects */
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+.flex1 a:hover{
+    color: lightblue;
+}
+
+
+/* focus effect */
+input:focus{
+    border: 2px solid blue;
+}
+
+
+/* scroll effect */
+html {
+    scroll-behavior: smooth;
+}
